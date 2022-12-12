@@ -1,38 +1,86 @@
-.App {
+body{
+  background: linear-gradient(to bottom right, #22a6f0 10%, black 90%);
+  min-height: 100vh;
+}
+.box{
+  background
+  
+  
+  
+  lack;
+  padding: 15px 20px;
+  border: double;
+  cursor: pointer;
+  border-radius: 20px 25px;
+  border-style: solid;
+  position: absolute;
+  width: 450px;
+  height: 550px;
+  left: 520px;
+  top: 80px;
+}
+.s1{
+  font-size: 30px;
+  color: #22a6f0;
+  top: 75px;
+  left: 650px;
+  position: relative;
+}
+h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  font-size: 40px;
+  top: 50px;
+  left: 570px;
+  color: black;
+  position: relative;
+}
+h3{
+  background-color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  left: 1000px;
+  color: black;
+}
+.input-container{
+  display: -ms-flexbox;
+  display: flex;
+  background: transparent;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.input{
+  position: absolute;
+  width: 500px;
+  height: 30px;
+  left: 625px;
+  top: 300px;
+}
+.input-field{
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 15px 20px;
+}
+.button{
+  background-color: white;
+  color: black;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  border-radius: 15px 20px;
+  border-style: solid;
+  border-color: black;
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 700px;
+  top: 520px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button:hover{
+  background-color: #22a6f0;
+  opacity: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
